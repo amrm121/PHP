@@ -1,4 +1,6 @@
 # PHP
-```Variáveis - Aula #04```<br/>
-<h6>Variáveis Dinâmicas & Global e Local</h6>
-```Operadores Aritméticos - Aula #05```<br/>
+```Apredendo PHP```<br/>
+<p>Variáveis Global, Local e Dinâmicas.</p>
+<p>Constantes e sua verificação</p>
+
+
