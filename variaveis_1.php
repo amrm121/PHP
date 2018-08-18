@@ -16,7 +16,7 @@ function soma (){
     $var_local = 40;
 
     //Teste da variaveis
-    return $var_global + $var_local;
+    return $var_global + $var_local; //Pede retorno
 }
 
 //Exibe $var_global na tela
