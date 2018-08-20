@@ -75,7 +75,7 @@
     }
 
 
-//Criando array multidimensional
+/*Criando array multidimensional
 
 $array = array(
     'paises'=> array(
@@ -98,5 +98,4 @@ print_r($array);
 
 Acesse Key => Sua hierarquia deve estar entre colchetes após o nome do array. 
 echo $array['paises'][0];
-
 */
