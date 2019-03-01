@@ -50,8 +50,13 @@
 
 **Alterar arquivo /etc/php/7.2/apache2/php.ini**
 ```
+#Habilita erros no navegador
 display_errors = On
 
+#Habilita salvar erros em arquivo de log
 
+log_errors = On
+
+error_log = /caminho/para/pasta/erro_PHP.log
 ```
 
