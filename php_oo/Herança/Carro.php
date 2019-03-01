@@ -1,21 +1,6 @@
 <?php
 
-class Veiculo{
-
-    public $modelo;
-    public $cor;
-    public $ano;
-
-    public function Andar(){
-
-        echo 'Andou';
-    }
-
-    public function Parar(){
-        echo 'Parou';
-
-    }
-}
+include('Veiculo.php');
 
 class Carro extends Veiculo{
 
@@ -30,15 +15,15 @@ class Carro extends Veiculo{
 
 $carro = new Carro();
 
-$carro->modelo = 'UNO';
-$carro->cor = 'BRANCO';
+$carro->setCor('Preto');
+$carro->setModelo('Uno com escadas');
+$carro->setAno(2018.1);
+$carro->placa = 'PKI-5588';
 
-echo '<br>';
+    echo 'Cor do Carro: '.$carro->getCor().        '<br>';
+    echo 'Modelo do Carro: '.$carro->getModelo().  '<br>';
+    echo 'Ano do Carro: '.$carro->getAno().        '<br>';
+    
+//Chama metodo de Veiculo    
+$carro->testeModelo();
 
-$carro->Parar();
-
-$carro->ligarLimpador();
-
-$carro->placa = 'XFC-2416';
-
-var_dump($carro);
