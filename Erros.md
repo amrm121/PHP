@@ -46,4 +46,12 @@
 
     ?>
 
+# Configurando **php.ini** para exibir erro
+
+**Alterar arquivo /etc/php/7.2/apache2/php.ini**
+```
+display_errors = On
+
+
+```
 
