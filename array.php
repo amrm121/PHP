@@ -8,7 +8,7 @@
 
         echo $array[0]; //Exibe valor expecifico atráves da chave | !Array inicia com chave [0]
 
-/*Apaganda Valor do Indíce
+/* Apaganda Valor do Indíce
         
         unset ($array[0]); // Apaga valor do indíce 0 | Apagar todo o array é necessário foreach para percorre-ló
     
