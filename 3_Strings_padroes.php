@@ -13,12 +13,7 @@
 
 */
 
-
-
-
-//strstr
-
-
 $e = 'leandro@gmail.com';
 
+//Retorna valor de $e a partir do parâmetro inicial
 print strstr($e, 'd');
