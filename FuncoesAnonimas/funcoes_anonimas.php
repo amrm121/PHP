@@ -3,18 +3,6 @@
 require ('notas.php');
 require ('alunos.php');
 
-//Filtro de idade
-$idade = function($elem){
-    return $elem['idade'] > 50;
-};
-
-//Filtro média
-$rep = function($elem){
-
-    return $elem < 50;
-};
-
-
 /*Criando própria função callback
 
 Recebe array de notas ou alunos
@@ -36,4 +24,9 @@ function filtroArray(Array $array, $nomeFuncao){
     return $filtro;
 }
 
-var_dump(filtroArray($notas, $rep));
+//Função anônima full
+var_dump(filtroArray($notas, function($elem){
+
+    return $elem > 50;
+
+}));
