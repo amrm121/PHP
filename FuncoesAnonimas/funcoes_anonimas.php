@@ -3,12 +3,15 @@
 require ('notas.php');
 require ('alunos.php');
 
-//Cria filtro para notas
-function filtro($nota){
-    return $nota > 50;
-};
+//Filtro de array
 
-//Segundo parâmetro chama função filtro como string
-$res = array_filter($notas, 'filtro');
+$notasFiltro = [];
 
-var_dump($res);
+foreach($notas as $nota):
+    if($nota > 50){
+
+        $notasFiltro[] = $nota;
+    }
+endforeach;
+
+var_dump($notasFiltro);
